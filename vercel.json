@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "built/server/app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/client/(.*)",
+      "dest": "/built/client/$1"
+    },
+    {
+      "src": "/shared/(.*)",
+      "dest": "/built/shared/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/built/server/app.js"
+    }
+  ],
+  "functions": {
+    "built/server/app.js": {
+      "includeFiles": "built/**"
+    }
+  }
+} 

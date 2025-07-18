@@ -1,0 +1,44 @@
+[debug] [2025-07-18T17:00:16.299Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.301Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.301Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.301Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.301Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.301Z] Checked if tokens are valid: true, expires at: 1752860722985
+[debug] [2025-07-18T17:00:16.302Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-07-18T17:00:16.302Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/tanksonline-392
+[debug] [2025-07-18T17:00:16.322Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-07-18T17:00:16.322Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/tanksonline-392
+[debug] [2025-07-18T17:00:16.323Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-07-18T17:00:16.323Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/tanksonline-392
+[debug] [2025-07-18T17:00:16.810Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-07-18T17:00:16.810Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-07-18T17:00:16.810Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-07-18T17:00:16.810Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-07-18T17:00:16.811Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasecrashlytics.googleapis.com 200
+[debug] [2025-07-18T17:00:16.811Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/tanksonline-392/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-07-18T17:11:57.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:11:57.312Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:11:57.315Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:11:57.315Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:11:57.435Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:11:57.442Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:12.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:12.841Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:12.842Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:12.842Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:12.891Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:12.892Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:12.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:12.893Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:26.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:26.003Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:26.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:26.004Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:29.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:29.321Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:12:29.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:12:29.321Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:13:43.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:13:43.349Z] > authorizing via signed-in user (luke@wishone.info)
+[debug] [2025-07-18T17:13:43.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-18T17:13:43.349Z] > authorizing via signed-in user (luke@wishone.info)

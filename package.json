@@ -11,7 +11,7 @@
     "start": "node built/server/app.js",
     "dev": "npm run build && npm run start",
     "dev:watch": "npm run build && nodemon built/server/app.js --watch built",
-    "postinstall": "npm run build",
+    "vercel-build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Radek Veverka (Original), Luke Jones (2025 Version)",
