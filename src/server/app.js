@@ -17,15 +17,22 @@ const isVercel = process.env.VERCEL;
 const basePath = isVercel ? process.cwd() : path.resolve(__dirname + "/../..");
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(basePath, "built", "client", "index.html"));
+    const indexPath = path.join(basePath, "built", "client", "index.html");
+    res.sendFile(indexPath);
 });
 
 app.get("/editor", function(req, res) {
-    res.sendFile(path.join(basePath, "built", "client", "editor", "index.html"));
+    const editorPath = path.join(basePath, "built", "client", "editor", "index.html");
+    res.sendFile(editorPath);
 });
 
+// Serve static files
 app.use("/client", express.static(path.join(basePath, "built", "client")));
 app.use("/shared", express.static(path.join(basePath, "built", "shared")));
+
+// Additional static file serving for root-level requests
+app.use("/assets", express.static(path.join(basePath, "built", "client", "assets")));
+app.use("/scripts", express.static(path.join(basePath, "built", "client", "scripts")));
 
 console.log("Node js server is now successfully listening at port " + port);
  

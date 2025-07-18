@@ -7,62 +7,60 @@
         your opponents in various mazes, collect guns, destroy your enemies. Choose between 3 different game modes - Arena, Duel, Team fight">
     <title>Tank Hunt Online</title>
     
-    <base href="client/">
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="scripts/libs/phaser.min.js"></script>
+    <script src="/client/scripts/libs/phaser.min.js"></script>
 
-    <script type="text/javascript" src="scripts/utils/Sprite_CL.js"></script>
-    <script type="text/javascript" src="scripts/utils/EffectManager.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/TextMaker_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Tank_CL.js"></script>
-    <script type="text/javascript" src="scripts/TimeManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/ItemGroup_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/ShotGroup_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/PlayerGroup_CL.js"></script>
-    <script type="text/javascript" src="scripts/utils/Color_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/DefaultTank_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Player_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/THGame_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Arena_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Shot_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Item_CL.js"></script>
-    <script type="text/javascript" src="scripts/LoadManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/PlayManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/MenuManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/BootManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Level_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Stats_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Duel_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UICountdown_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UIGameChat_CL.js"></script>
-    <script type="text/javascript" src="scripts/TankHunt_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/TeamFight_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameplay/Capture_CL.js"></script>
-    <script type="text/javascript" src="scripts/utils/Pool_CL.js"></script>
-    <script type="text/javascript" src="scripts/SocketManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UIPlayerManager_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UILadder_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UIPlayer_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UINotification_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UITeamFight_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UIDuel_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UIStatsTable_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/HealthBar_CL.js"></script>
-    <script type="text/javascript" src="scripts/gameUI/UITeamNotification_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/utils/Sprite_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/utils/EffectManager.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/TextMaker_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Tank_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/TimeManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/ItemGroup_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/ShotGroup_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/PlayerGroup_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/utils/Color_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/DefaultTank_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Player_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/THGame_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Arena_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Shot_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Item_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/LoadManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/PlayManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/MenuManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/BootManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Level_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Stats_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Duel_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UICountdown_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UIGameChat_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/TankHunt_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/TeamFight_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameplay/Capture_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/utils/Pool_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/SocketManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UIPlayerManager_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UILadder_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UIPlayer_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UINotification_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UITeamFight_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UIDuel_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UIStatsTable_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/HealthBar_CL.js"></script>
+    <script type="text/javascript" src="/client/scripts/gameUI/UITeamNotification_CL.js"></script>
 
-    <script type="text/javascript" src="../../shared/Levels.js"></script>
+    <script type="text/javascript" src="/shared/Levels.js"></script>
     
-    <script src="scripts/Run_CL.js"></script>
+    <script src="/client/scripts/Run_CL.js"></script>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/client/styles.css">
     
 </head>
 
 <body>
-    <h1 id="logoCont"><img style="height: 18rem" src="assets/images/logo_text.png" alt="Tank Hunt Logo"></h1>
+    <h1 id="logoCont"><img style="height: 18rem" src="/client/assets/images/logo_text.png" alt="Tank Hunt Logo"></h1>
  
     <div id="menuCont">
         <input id="inpName" maxlength="12" type="text" placeholder="Type here your nickname">
