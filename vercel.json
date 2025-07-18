@@ -4,6 +4,10 @@
     {
       "src": "built/server/app.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "built/client/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -19,10 +23,5 @@
       "src": "/(.*)",
       "dest": "/built/server/app.js"
     }
-  ],
-  "functions": {
-    "built/server/app.js": {
-      "includeFiles": "built/**"
-    }
-  }
+  ]
 } 
